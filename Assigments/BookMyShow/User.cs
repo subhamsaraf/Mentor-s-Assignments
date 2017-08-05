@@ -60,8 +60,8 @@ namespace BookMyShow
 
     public class Screen
     {
-        string Id;
-        List<SeatClass> Seats { get; set; }
+        string Id { get; set; }
+        List<Seat> Seats { get; set; }
         List<Movie> PlayingMovies { get; set; }
         List<TimeSlot> ShowTiming { get; set; }
     }
@@ -73,10 +73,10 @@ namespace BookMyShow
 
     }
 
-    public class SeatClass
+    public class Seat
     {
         int AvailableSeats { get; set; }
-
+        
     }
 }
 

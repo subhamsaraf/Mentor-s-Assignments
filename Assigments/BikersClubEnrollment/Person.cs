@@ -15,7 +15,7 @@ namespace BikersClubEnrollment
 
         public override string ToString()
         {
-            string Details = $"{Name.Salutation}. {Name.FirstName} {Name.MiddleName} {Name.LastName}, Gender, Age {Age}";
+            string Details = $"{Name.Salutation}. {Name.FirstName} {Name.MiddleName} {Name.LastName}, {Gender}, Age {Age}";
             return Details;
         }
     }

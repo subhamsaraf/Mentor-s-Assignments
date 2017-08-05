@@ -41,15 +41,15 @@ namespace BikeClubEnrollmentTest
             person.DateOfBirth = Convert.ToDateTime("05/21/1999");
             BikeClub bikersClub = new BikeClub();
             bikersClub.Enroll(person);
-            string temp1;
-            //for(int i=0;i<bikersClub.BikerMember.Count;i++)
+            //string temp1;
+            //for (int i = 0; i < bikersClub.BikerMember.Count; i++)
             //{
             //    temp1 = bikersClub.BikerMember[i].Name.FirstName;
             //}
-            
-            //    //bikers.DisplayMembers();
-            //    //Assert.AreEqual("Sourav", temp1);
-            //    Assert.IsNull(temp1);
+
+            //bikers.DisplayMembers();
+            //Assert.AreEqual(18,);
+            //Assert.IsNull(temp1);
 
         }
 
