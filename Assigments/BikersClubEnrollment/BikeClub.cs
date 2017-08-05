@@ -9,6 +9,7 @@ namespace BikersClubEnrollment
         {
             BikerMember = new List<Person>();
         }
+
         public new void Enroll(Person person)
         {
             if (person.Age >= 21)
@@ -16,6 +17,8 @@ namespace BikersClubEnrollment
                BikerMember.Add(person);
             }
         }
+
+
         public void DisplayMembers()
         {
             foreach (var person in BikerMember)

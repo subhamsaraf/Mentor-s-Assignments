@@ -30,6 +30,7 @@ namespace BikersClubEnrollment
             {
                 bikers.Enroll(person[i]);
                 bikers.DisplayMembers();
+
             }
 
 

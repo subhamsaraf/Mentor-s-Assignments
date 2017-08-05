@@ -18,12 +18,14 @@ namespace BikeClubEnrollmentTest
             person.Name.MiddleName = "Kumar";
             person.Name.LastName = "Saraf";
             person.DateOfBirth = Convert.ToDateTime("05/21/1995");
+            person.Gender = Gender.Male;
             BikeClub bikersClub = new BikeClub();
             bikersClub.Enroll(person);
             string temp = bikersClub.BikerMember[0].Name.FirstName;
 
             //bikers.DisplayMembers();
             Assert.AreEqual("Subham", temp);
+            Assert.AreEqual(22, bikersClub.BikerMember[0].Age);
 
         }
         [TestMethod]
